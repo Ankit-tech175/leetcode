@@ -2,8 +2,7 @@
 
            // Flatten Binary Tree to Linked List - Leetcode 114
 
-
-  public class TreeNode {
+ class TreeNode {
       int val;
      TreeNode left;
       TreeNode right;
@@ -16,7 +15,7 @@
       }
   }
  
-class Solution {
+ public class Solution {
     public void flatten(TreeNode root) {
         TreeNode curr=root;
         while(curr!=null){
